@@ -1,0 +1,27 @@
+= Getting Started With Spring REST Docs
+:doctype: book
+:toc: left
+:sectlinks:
+:nofooter:
+
+This is an example output for a service running at http://localhost:8080:
+
+== curl
+include::{snippets}/home/curl-request.adoc[]
+
+== request
+include::{snippets}/home/http-request.adoc[]
+
+== request parameters
+include::{snippets}/home/request-parameters.adoc[]
+
+== response
+include::{snippets}/home/http-response.adoc[]
+
+== response body
+include::{snippets}/home/response-body.adoc[]
+
+== response fields
+include::{snippets}/home/response-fields.adoc[]
+
+As you can see the format is very simple, and in fact you always get the same message.

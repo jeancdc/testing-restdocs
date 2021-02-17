@@ -1,0 +1,12 @@
+= Getting Started With Spring REST Docs
+:doctype: book
+:toc: left
+:sectlinks:
+:nofooter:
+:operation-curl-request-title: Curl example
+
+== Greet the user
+
+A `GET` request is used to greet the user.
+
+operation::home[snippets='http-request,curl-request,request-parameters,http-response,response-fields']
